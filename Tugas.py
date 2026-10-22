@@ -39,3 +39,11 @@ btn_prediksi = tk.Button(
     font=("Helvetica", 10, "bold"),
     padx=10, 
     pady=5
+)
+btn_prediksi.pack(pady=15)
+
+label_hasil = tk.Label(
+    root, 
+    text="", 
+    font=("Helvetica", 12, "bold"), 
+    fg="blue"
