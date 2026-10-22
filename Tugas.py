@@ -23,3 +23,6 @@ entries = []
 for i in range(1, 11):
     row_frame = tk.Frame(frame_inputs)
     row_frame.pack(fill="x", pady=2)
+
+    lbl = tk.Label(row_frame, text=f"Nilai Mata Pelajaran {i}:", width=22, anchor="w")
+    lbl.pack(side="left")
