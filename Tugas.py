@@ -47,3 +47,5 @@ label_hasil = tk.Label(
     text="", 
     font=("Helvetica", 12, "bold"), 
     fg="blue"
+)
+label_hasil.pack(pady=5)
