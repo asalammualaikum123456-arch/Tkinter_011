@@ -18,3 +18,8 @@ label_judul.pack()
 
 frame_inputs = tk.Frame(root)
 frame_inputs.pack(pady=10)
+
+entries = []
+for i in range(1, 11):
+    row_frame = tk.Frame(frame_inputs)
+    row_frame.pack(fill="x", pady=2)
