@@ -26,3 +26,7 @@ for i in range(1, 11):
 
     lbl = tk.Label(row_frame, text=f"Nilai Mata Pelajaran {i}:", width=22, anchor="w")
     lbl.pack(side="left")
+
+    entry = tk.Entry(row_frame, width=15)
+    entry.pack(side="right")
+    entries.append(entry)
