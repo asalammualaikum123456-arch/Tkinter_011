@@ -15,3 +15,6 @@ label_judul = tk.Label(
     pady=10
 )
 label_judul.pack()
+
+frame_inputs = tk.Frame(root)
+frame_inputs.pack(pady=10)
