@@ -30,3 +30,8 @@ for i in range(1, 11):
     entry = tk.Entry(row_frame, width=15)
     entry.pack(side="right")
     entries.append(entry)
+
+btn_prediksi = tk.Button(
+    root, 
+    text="Hasil Prediksi", 
+    command=prediksi_prodi,
